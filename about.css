@@ -1,0 +1,31 @@
+body{
+    background: url(images/background-tile-1.jpg) top left;
+}
+
+#about-body{
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #CE0053
+}
+
+.about-section h2 {
+    text-decoration: underline;
+    background: white;
+    padding: 5px;
+}
+
+.about-section p{
+    font-family: Georgia, Arial, sans-serif;
+    background: #64635E;
+    color: #FFF9D6;
+    padding: 10px;
+}
+
+#jep-image {
+    height: 200px;
+    float: left;
+    margin: 5px 15px 0px 5px;
+    
+}

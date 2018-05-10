@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background: url(images/going-to-sun-road.jpg) top left no-repeat;
+	background-size: cover;
+    margin: 0 auto;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+header p {
+    width: 650px;
+    padding: 10px;
+    margin: 20px auto 30px;
+    font-weight: 800;
+    
+}
+
+#home-navigation {
+    background: url(images/paper-pattern.jpg) top left repeat;
+    width: 720px;
+    margin: 0 auto 50px;
+    padding: 25px;
+}
+
+table {
+    margin: auto;
+}
+
+table tr {
+    margin-bottom: 30px;
+}
+
+/* using tex-align: center; and line-height: 200px I can center the text directly in the middle of the div because the line-height is equal to the height of the div */
+table tr td a div {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    line-height: 80px;
+    background-color: coral;
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+
+#about {
+    background: url(images/cool_triangles.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+#images {
+    background: url(images/Bugs_Bunny_King_Arthur.jpg) top right no-repeat;
+    background-size: cover;
+}
+
+#projects {
+    background: url(images/Atkniz.png) center center no-repeat;
+    background-size: cover;
+}
+
+#activities {
+    background: url(images/cool_skull.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+footer {
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    background: #ccc;
+    text-align: left;
+    padding-left: 35px;
+    
+}
+
+footer h2 {
+    font-size: 16px;
+    text-decoration: underline;
+}
